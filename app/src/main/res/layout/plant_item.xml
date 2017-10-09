@@ -13,6 +13,7 @@
 	android:layout_marginBottom="8dp"
 >
 
+
 	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent">
@@ -48,14 +49,13 @@
 		<!-- Subtitle contains author and date -->
 		<TextView
 			android:id="@+id/summary"
-			android:layout_width="wrap_content"
+			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:layout_alignLeft="@id/name"
 			android:layout_below="@id/name"
 			android:textSize="12sp" />
 		</LinearLayout>
 	</RelativeLayout>
-
 	<!--<LinearLayout-->
 		<!--android:layout_width="match_parent"-->
 		<!--android:layout_height="wrap_content"-->

@@ -17,6 +17,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 
+
 import com.squareup.otto.Subscribe;
 
 import java.util.ArrayList;
@@ -93,6 +94,7 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
 		}
 
 		BusHelper.getInstance().register(this);
+
 	}
 
 	@Override protected void onSaveInstanceState(Bundle outState)

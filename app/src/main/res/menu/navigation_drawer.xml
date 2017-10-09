@@ -26,14 +26,16 @@
 
 			<item
 				android:id="@+id/website"
-				android:title="By 7lpdwcaw"
+				android:title=""
 				android:orderInCategory="3"
+				android:visible="false"
 			/>
 
 			<item
 				android:enabled="false"
+				android:visible="false"
 				android:id="@+id/version"
-				android:title="Version 2.1"
+				android:title=""
 				android:orderInCategory="3"
 			/>
 		</menu>
